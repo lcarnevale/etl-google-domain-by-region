@@ -1,5 +1,13 @@
+#!/usr/bin/env python
+"""ETL process for creating Google Domain and Languages by Region.
+"""
+__author__ = "Lorenzo Carnevale"
+__license__ = "MIT"
+
+# standard libraries
 import os
 import re
+# third parties libraries
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
